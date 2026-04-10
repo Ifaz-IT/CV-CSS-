@@ -1,0 +1,51 @@
+body{
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255) ;
+    
+}
+#tcolor{
+    /* background-color: rgb(231, 226, 210); */
+    background-color: rgb(255, 255, 255);
+    box-shadow: -20px 10px 20px grey;
+}
+#img{
+     border-radius: 45%;
+}
+#top{
+    background-color: rgb(130, 134, 141);
+}
+#sidebar{
+    background-color: rgb(223, 223, 223);
+     
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+     
+}
+
+table {
+  border-collapse: collapse; /* Works if combined with overflow */
+  border-radius: 15px;
+  overflow: hidden; /* Important: Clips the square corners of cells */
+  border: 1px solid #ccc;
+}
+hr{
+    background-color: rgb(16, 29, 24);
+    height: 3.5px;
+    border: 0;
+}
+.font{
+    color: rgb(16, 29, 24) ;
+}
+button {
+  height: 20px;
+  border-radius: 8px; /* Makes it circular */
+  border: none;
+  background-color: rgb(223, 223, 223);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+button:hover{
+    background-color: rgb(255, 255, 255) ;
+}
